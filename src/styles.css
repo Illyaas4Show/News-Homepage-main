@@ -2,3 +2,23 @@
 @import url(styles/new-box.css);
 @import url(styles/small-boxes.css);
 @import url(styles/navbar.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+
+/* ---------------------------
+            MAIN  
+---------------------------- */
+
+:root {
+  --off-white: hsl(36, 100%, 99%);
+}
+
+body {
+  background-color: var(--off-white);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+}
+
+p {
+  line-height: 1.5rem;
+}
